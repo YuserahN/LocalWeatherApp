@@ -1,0 +1,54 @@
+body {
+  background-size: cover; 
+  background-attachment: fixed; 
+  background-repeat: no-repeat;
+}
+
+#container {
+  background-color: #000000; 
+  color: #ffffff; 
+  padding: 2%; 
+  margin: 2%; 
+  margin-right: 40%; 
+  margin-left: 40%; 
+  
+  
+  min-width: 200px;
+  max-width: 1280px;
+} 
+
+#city { 
+  color: orange; 
+}
+
+#temperature { 
+  padding-top: 2%; 
+  font-size: 50pt; 
+} 
+
+#highTemp, #lowTemp {
+  font-size: 20pt; 
+  float: right; 
+  padding-bottom: 2%; 
+} 
+
+#fahrenheit, #celsius {
+  background-color: #000000; 
+} 
+
+#icon {
+  padding: 8%; 
+} 
+
+#logo {
+  height: 60px; 
+  width: 120px; 
+  margin-left: 47%; 
+  margin-top: 18%; 
+} 
+
+@media only screen and (max-width: 380px) {
+  #container { 
+    margin-left: 25%; 
+  }
+} 
