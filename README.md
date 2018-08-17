@@ -1,3 +1,3 @@
-# TributePage
+# Local Weather App 
 
-Tribute Page for Muhammad Ali
+Displays current local weather with the use of DarkSky API. 
